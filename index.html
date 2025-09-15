@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mine App Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mine App</h1>
+    <nav>
+      <a href="mine.html">Mine DavCoin</a>
+      <a href="wallet.html">My Wallet</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Enter Your Username</h2>
+      <input type="text" id="username-input" placeholder="Enter username"/>
+      <button id="login-btn">Login</button>
+    </section>
+
+    <section>
+      <h2>Your Mining Status</h2>
+      <p>Total DavCoins Mined: <span id="total-dc">0</span></p>
+      <p>Mining Rate: <span id="mining-rate">10</span> DC/sec</p>
+      <p>DavCoin Value: $10,000</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
