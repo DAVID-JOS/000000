@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkyWallet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My SkyWallet</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="mine.html">Mine DavCoin</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <p>DavCoin Balance: <span id="balance-dc">0</span></p>
+      <p>USD Value: $<span id="balance-usd">0</span></p>
+      <p>NGN Value: ₦<span id="balance-ngn">0</span></p>
+      <input type="text" id="recipient-account" placeholder="Enter Moniepoint account" />
+      <button id="convert-btn">Convert DavCoin to USD/NGN</button>
+      <button id="withdraw-btn">Withdraw to Moniepoint</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
