@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Wallet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Wallet</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mine.html">Mine</a>
+      <a href="wallet.html">Wallet</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <label for="walletUsername">Username:</label>
+      <input id="walletUsername" type="text" placeholder="Enter your name" />
+      <button id="checkBalance">Check Balance</button>
+    </section>
+
+    <section>
+      <h3>Balance</h3>
+      <p id="walletBalance">0 DC</p>
+      <p id="balanceNGN">₦0</p>
+    </section>
+
+    <section>
+      <h3>Withdraw</h3>
+      <label for="recipient">Recipient Account:</label>
+      <input id="recipient" type="text" placeholder="Moniepoint account number" />
+      <label for="amountNGN">Amount (NGN):</label>
+      <input id="amountNGN" type="number" />
+      <button id="withdraw">Withdraw</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
